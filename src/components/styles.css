@@ -1,0 +1,27 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: contain;
+  width: auto;
+  height: 40rem;
+}
+
+.swiper-slide img {
+  /* display: block; */
+  width: 100%;
+}
+
+.portfolioContainer {
+  /* width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0px 40px;
+  position: relative;
+  clear: both; */
+}
