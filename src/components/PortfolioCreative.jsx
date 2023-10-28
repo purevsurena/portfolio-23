@@ -77,11 +77,11 @@ const Portfolio = () => {
   return (
     <>
       <Gallery>
-        <div className="container" style={{ padding: 0, margin: 0 }}>
+        <div className="container">
           <div className="tokyo_tm_portfolio" >
             <div className="portfolio_filter">
               <Tabs>
-                <TabList style={{ marginTop: -100 }}>
+                <TabList >
                   <Tab>Mobile Apps</Tab>
                   <Tab>Web Apps</Tab>
                   <Tab>Others</Tab>
@@ -96,7 +96,7 @@ const Portfolio = () => {
                       slidesPerView={3.8}
                       className="mySwiper"
                     >
-                      {mobileApp.map((app) => (
+                      {/* {mobileApp.map((app) => (
                          <SwiperSlide>
                           <img
                             data-aos="fade-right"
@@ -105,7 +105,7 @@ const Portfolio = () => {
                             src={require(`../../public/assets/img/projects/${app.imgName}`)}
                           />
                         </SwiperSlide>
-                      ))}
+                      ))} */}
                     </Swiper>
                   </TabPanel>
                   {/* END VIMEO VIDEO */}

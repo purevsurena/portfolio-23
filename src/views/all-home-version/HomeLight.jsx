@@ -11,6 +11,8 @@ import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
 import Experience from "../../components/service/Experience";
+import Portfolio2 from "../../components/Portfolio2";
+import Portfolio3 from "../../components/Portfolio3";
 
 const HomeLight = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -150,7 +152,9 @@ const HomeLight = () => {
               {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
-                <Portfolio />
+                {/* <Portfolio /> */}
+                {/* <Portfolio2 /> */}
+                <Portfolio3 />
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
 

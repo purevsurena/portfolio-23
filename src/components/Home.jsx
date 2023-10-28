@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="tokyo_tm_home">
-        <div className="home_content">
+        {/* <div className="home_content"> */}
           <div className="avatar">
             <div
               className="image avatar_img"
@@ -25,7 +25,7 @@ const Home = () => {
             <Social />
           </div>
           {/* END DETAILS */}
-        </div>
+        {/* </div> */}
         {/* END HOME CONTENT */}
       </div>
       {/* END HOME */}
