@@ -6,58 +6,57 @@ import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 
-import './styles.css';
+import "./styles.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const mobileApp = [
   {
     id: 1,
-    name: 'TomYo Skills',
-    imgName: 'skills-app.png'
+    name: "TomYo Skills",
+    imgName: "skills-app.png",
   },
   {
     id: 2,
-    name: 'TomYo Skills',
-    imgName: 'nft-race.png'
+    name: "TomYo Skills",
+    imgName: "nft-race.png",
   },
   {
     id: 3,
-    name: 'TomYo Skills',
-    imgName: 'class-app.png'
+    name: "TomYo Skills",
+    imgName: "class-app.png",
   },
   {
     id: 4,
-    name: 'TomYo Skills',
-    imgName: 'lingo-app.png'
+    name: "TomYo Skills",
+    imgName: "lingo-app.png",
   },
   {
     id: 5,
-    name: 'TomYo Skills',
-    imgName: 'stoovo-app.png'
+    name: "TomYo Skills",
+    imgName: "stoovo-app.png",
   },
   {
     id: 6,
-    name: 'TomYo Skills',
-    imgName: 'mentor-app.png'
+    name: "TomYo Skills",
+    imgName: "mentor-app.png",
   },
   {
     id: 7,
-    name: 'TomYo Skills',
-    imgName: 'tomyo-v2-app.png'
+    name: "TomYo Skills",
+    imgName: "tomyo-v2-app.png",
   },
   {
     id: 8,
-    name: 'TomYo Skills',
-    imgName: 'ubp.png'
+    name: "TomYo Skills",
+    imgName: "ubp.png",
   },
-]
+];
 
 const Portfolio = () => {
   // for popup video for youtube
@@ -78,21 +77,11 @@ const Portfolio = () => {
   return (
     <>
       <Gallery>
-        <div className="container">
-          <div className="tokyo_tm_portfolio">
-            <div className="tokyo_tm_title">
-              <div className="title_flex">
-                <div className="left">
-                  <span>Portfolio</span>
-                  <h3>Highlighed </h3>
-                </div>
-              </div>
-            </div>
-            {/* END TOKYO_TM_TITLE */}
-
+        <div className="container" style={{ padding: 0, margin: 0 }}>
+          <div className="tokyo_tm_portfolio" >
             <div className="portfolio_filter">
               <Tabs>
-                <TabList>
+                <TabList style={{ marginTop: -100 }}>
                   <Tab>Mobile Apps</Tab>
                   <Tab>Web Apps</Tab>
                   <Tab>Others</Tab>
@@ -100,77 +89,23 @@ const Portfolio = () => {
                 {/* END TABLIST */}
                 <div className="list_wrapper">
                   <TabPanel>
-                      {/* <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <div className="mobile-apps" style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center'}}>
-                          {mobileApp.map((item, index) => (
-                            <img
-                              key={index}
-                              src={`assets/img/projects/${item.imgName}`}
-                              alt={item.name}
-                              data-tip
-                              data-for="TomYo Skills"
-                              style={{ height: 600, padding: 10, paddingBottom: 40, }}
-                              onClick={() => setIsOpen3(true)}
-                            />
-                          ))}
-                        </div>
-                        <ReactTooltip
-                          id="vimeo"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
-                        <div>
-                          <h5>Teresa Butler</h5>
-                          <span>Vimeo</span>
-                        </div>
-                      </ReactTooltip>
-                      </div> */}
-
                     <Swiper
-                      effect={'coverflow'}
                       grabCursor={true}
-                      centeredSlides={true}
-                      slidesPerView={3.2}
-                      coverflowEffect={{
-                        rotate: -1,
-                        stretch: -20,
-                        depth: 50,
-                        modifier: 2,
-                        slideShadows: false,
-                      }}
-                      pagination={true}
-                      modules={[EffectCoverflow, Pagination]}
+                      centeredSlides={false}
+                      spaceBetween={30}
+                      slidesPerView={3.8}
                       className="mySwiper"
                     >
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app.c8926ed5.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app2.f1a7cd44.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/mentor-app.55feb9d3.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/class-app.9bbdaac5.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app.c8926ed5.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app2.f1a7cd44.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app.c8926ed5.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app2.f1a7cd44.png" />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img src="https://www.puujee.tech/static/media/skills-app.c8926ed5.png" />
-                      </SwiperSlide>
+                      {mobileApp.map((app) => (
+                         <SwiperSlide>
+                          <img
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="100"
+                            src={require(`../../public/assets/img/projects/${app.imgName}`)}
+                          />
+                        </SwiperSlide>
+                      ))}
                     </Swiper>
                   </TabPanel>
                   {/* END VIMEO VIDEO */}
@@ -213,7 +148,7 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
+                            <img
                               src="assets/img/projects/tomyo-landing-page.png"
                               alt="Details"
                               data-tip

@@ -29,7 +29,7 @@ const HomeLight = () => {
       <PageTitle title="Purevsuren (Puujee)" />
       {/* End page title for seo */}
 
-      <button className="theme-switcher-label" onClick={toggleDarkMode}>
+      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>
             <FaSun />
@@ -39,7 +39,7 @@ const HomeLight = () => {
             <FaMoon />
           </>
         )}
-      </button>
+      </button> */}
 
       <Tabs>
         <TabList>
