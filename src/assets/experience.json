@@ -1,0 +1,77 @@
+{
+  "experience": [
+    {
+      "id": 3,
+      "link": "https://www.equipetechnique.com/",
+      "companyName": "Equipe Technique - (France)",
+      "company": "equipe",
+      "title": "Lead Mobile Engineer",
+      "dateFrom": "Feb 2023",
+      "dateTo": "Current",
+      "info": [
+        "Upgraded battery health by 18% through a GPS-enhanced algorithm, drawing on expertise in geolocation optimization.",
+        "Merged object detection and mesh algorithms, achieving 34% smaller size and 21% faster rendering on the Viro Scene",
+        "Optimized the ThreeJS rendering process, reducing app loading time by 17% and augmented user interaction."
+      ],
+      "stack": ["React Native", "CI/CD", "Firebase", "Firestore", "Deployment", "Third-party integrations"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #000, #2A2A2A)",
+      "colourSecondary": "linear-gradient(to bottom, #fff, #7C7C7C)"
+    },
+    {
+      "id": 2,
+      "link": "https://www.tomyo.mn",
+      "company": "tomyo",
+      "companyName": "TomYo - (Mongolia)",
+      "title": "Team Lead",
+      "dateFrom": "Jan 2022",
+      "dateTo": "Oct 2022",
+      "info": [
+        "Led the entire 'TomYo Skills' project from concept to launch, including mobile, web, backend, and business and technical integrations.",
+        "Boosted user engagement by 28% by successfully implementing interactive animations inspired by Apple's design.",
+        "Cultivated and refined strong soft skills, including leadership and communication, while fostering a collaborative work environment and achieving a successful project launch"
+      ],
+      "stack": ["React Native", "Next.js", "UI/UX", "Node.js", "AWS", "PostgreSQL", "Firebase", "Third-party integrations"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #1AAFD0, #3BE8B0)",
+      "colourSecondary": "linear-gradient(to bottom, #1AAFD0, #3BE8B0)"
+    },
+    {
+      "id": 2,
+      "link": "https://www.stoovo.com",
+      "companyName": "Stoovo - (USA)",
+      "company": "stoovo",
+      "title": "Mobile Developer",
+      "dateFrom": "Feb 2021",
+      "dateTo": "July",
+      "info": [
+        "Initialized responsive and adaptive UI guidelines that improved consistency and usability across all devices, while eliminating various device-based UI bugs through thorough testing and analysis",
+        "Maintained, and optimized React Native (RN) components, screens, and features for the mobile app, leveraging Test-Driven Development (TDD) practices to ensure high-quality code and optimal user experience"
+      ],
+      "stack": ["React Native", "Graphql", "Axios", "Third-party integrations"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #465a90, #00baff)",
+      "colourSecondary": "linear-gradient(to bottom, #465a90, #00baff)"
+    },
+    {
+      "id": 4,
+      "link": "https://www.tomyo.mn",
+      "company": "tomyo",
+      "companyName": "TomYo - (Mongolia)",
+      "title": "Full-Stack Software Engineer",
+      "dateFrom": "Nov 2019",
+      "dateTo": "Jan 2022",
+      "info": [
+        "Architected application following Atomic Design Principal, resulting in a 45% increase in the reusability of components.",
+        "Designed a comprehensive Story Book for all components, effectively reducing development time by 26% and fostering enhanced collaboration among team members",
+        "AWS infrastructure setup including EC2, Route53, SSL, S3, Blue-Green Deployment, and CI/CD pipeline.",
+        "Deployed and distributed mobile app updates on App Store, Play Store, and App Gallery.",
+        "Experience in designing and executing complex Postgres queries for business analytics using Metabase."
+      ],
+      "stack": ["React Native", "ReactJS", "NextJS", "UI/UX", "Restify", "AWS", "PostgreSQL", "Firebase", "Deployment"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #1AAFD0, #3BE8B0)",
+      "colourSecondary": "linear-gradient(to bottom, #1AAFD0, #3BE8B0)"
+    }
+  ]
+}

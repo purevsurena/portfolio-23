@@ -10,6 +10,7 @@ import ServiceMain from "../../components/service/ServiceMain";
 import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
+import Experience from "../../components/service/Experience";
 
 const HomeLight = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -76,7 +77,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/setting.svg"
                       alt="avatar"
                     />
-                    <span className="menu_content">Service</span>
+                    <span className="menu_content">Experience</span>
                   </Tab>
                   <Tab>
                     <img
@@ -84,7 +85,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
-                    <span className="menu_content">Portfolio</span>
+                    <span className="menu_content">Projects</span>
                   </Tab>
                   <Tab>
                     <img
@@ -142,7 +143,8 @@ const HomeLight = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  <ServiceMain />
+                  {/* <ServiceMain /> */}
+                  <Experience />
                 </div>
               </TabPanel>
               {/* END ABOUT MENU TAB CONTENT */}
