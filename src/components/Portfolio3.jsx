@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Gallery, Item } from "react-photoswipe-gallery";
+import { Gallery } from "react-photoswipe-gallery";
 import ReactTooltip from "react-tooltip";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
 
 import "./styles.css";
 
@@ -17,8 +12,13 @@ import "./styles.css";
 
 const mobileApp = [
   {
+    id: 0,
+    name: "Pikd",
+    imgName: "pikd-app3.png",
+  },
+  {
     id: 1,
-    name: "TomYo Skills",
+    name: "TomYo Skills V2",
     imgName: "skills-app.png",
   },
   {
@@ -48,13 +48,28 @@ const mobileApp = [
   },
   {
     id: 7,
-    name: "TomYo V2",
-    imgName: "tomyo-v2-app.png",
+    name: "AnnSwanson",
+    imgName: "ann-swanson.png",
   },
   {
     id: 8,
     name: "UB Password",
     imgName: "ubp.png",
+  },
+  {
+    id: 9,
+    name: "TomYo Skills V1",
+    imgName: "skills-app3.png",
+  },
+  {
+    id: 10,
+    name: "TomYo V1",
+    imgName: "tomyo-v1-app.png",
+  },
+  {
+    id: 11,
+    name: "TomYo V2",
+    imgName: "tomyo-v2-app.png",
   },
 ];
 
@@ -116,7 +131,6 @@ const Portfolio3 = () => {
                       >
                         <img
                           key={index}
-                          width={280}
                           src={require(`../assets/images/projects/${app.imgName}`)}
                         />
                         <h5 className="app-title">{app.name}</h5>
