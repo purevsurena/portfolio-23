@@ -15,13 +15,6 @@ const HomeLight = () => {
     window.scrollTo(0, 0);
   }, [selectedTab]);
 
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
-  useEffect(() => {
-    document.body.classList.toggle("dark", isDarkMode);
-    localStorage.setItem("isDarkModeEnabled", isDarkMode);
-  }, [isDarkMode]);
-
   return (
     <>
       <PageTitle title="Purevsuren (Puujee)" />

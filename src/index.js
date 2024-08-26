@@ -6,6 +6,8 @@ import "./assets/scss/style.scss";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 
+document.body.classList.add("dark");
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(

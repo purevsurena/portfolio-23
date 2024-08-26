@@ -7,12 +7,7 @@ import { Routes, Route } from "react-router-dom";
 
 const AllRoutes = () => {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<HomeLight />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </>
+    <HomeLight />
   );
 };
 
