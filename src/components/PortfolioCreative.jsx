@@ -100,7 +100,7 @@ const Portfolio = () => {
                          <SwiperSlide>
                           <img
                             data-aos="fade-right"
-                            data-aos-duration="1200"
+                            data-aos-duration="500"
                             data-aos-delay="100"
                             src={require(`../../public/assets/img/projects/${app.imgName}`)}
                           />
@@ -112,7 +112,7 @@ const Portfolio = () => {
 
                   <TabPanel>
                     <ul className="portfolio_list">
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      <li data-aos="fade-right" data-aos-duration="500">
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
@@ -143,7 +143,7 @@ const Portfolio = () => {
                       {/* END DETAILS */}
                       <li
                         data-aos="fade-right"
-                        data-aos-duration="1200"
+                        data-aos-duration="500"
                         data-aos-delay="100"
                       >
                         <div className="inner">

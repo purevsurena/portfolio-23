@@ -55,7 +55,7 @@
     float: left;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 31px;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 .tokyo_tm_about .about_text p {
     margin-bottom: 11px;
@@ -119,18 +119,22 @@
     clear: both;
     float: left;
     background-color: #fff;
-    padding: 93px 0px 100px 0px;
+    padding: 48px 0px 12px 0px;
 }
+
 .tokyo_tm_progressbox .in {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
-    display: flex;
+    // display: flex;
 }
 .tokyo_tm_progressbox .left {
-    width: 50%;
+    width: 100%;
     padding-right: 50px;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
 }
 .tokyo_tm_progressbox .right {
     width: 50%;
@@ -141,10 +145,17 @@
     height: auto;
     clear: both;
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    justify-content:flex-start;
+    gap: 1%;
 }
 .progress_inner {
     width: 100%;
-    margin-bottom: 17px;
+    margin-bottom: 12px;
+    // margin-right: 12px;
 }
 .progress_inner:last-child {
     margin-bottom: 0px;
@@ -184,7 +195,7 @@
     height: auto;
     clear: both;
     float: left;
-    padding: 90px 0px 90px 0px;
+    padding: 0px 0px 90px 0px;
 }
 .tokyo_tm_skillbox .in {
     width: 100%;

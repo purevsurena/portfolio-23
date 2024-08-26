@@ -97,7 +97,7 @@ const Portfolio2 = () => {
         {mobileApp.map((app) => (
           <div className="app-container"
             data-aos="fade-right"
-            data-aos-duration="1200"
+            data-aos-duration="500"
             data-aos-delay="100">
             <img
               width="100%"

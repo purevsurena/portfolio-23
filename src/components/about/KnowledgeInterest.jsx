@@ -12,6 +12,9 @@ const KnowledgeInterest = () => {
         "AWS (EC2, Route53, S3, SES)",
         "App Release (App Store, Play Store, App Gallery)",
         "CI/CD (Blue-Green Deployment, Ansible, Bitrise)",
+        "Google ARCore, Viro (Augmented Reality)",
+        "High-level Map Features",
+        "Native iOS & Android Integration (Swift, Kotlin)",
       ],
     },
     {
@@ -19,11 +22,14 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Code Development Focus",
       content: [
-        "High-quality",
+        "High-quality code",
         "Smooth animations",
         "Pixel-perfect UI",
-        "Optimized solution",
-        "clean structure",
+        "Optimized solutions",
+        "Clean structure",
+        "Unit and E2E testing",
+        "Scalability and performance",
+        "Maintainable architecture",
       ],
     },
   ];

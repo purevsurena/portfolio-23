@@ -38,7 +38,7 @@ const NewsRtl = () => {
           {/* END TITLE */}
 
           <ul>
-            <li data-aos="fade-right" data-aos-duration="1200">
+            <li data-aos="fade-right" data-aos-duration="500">
               <div className="list_inner">
                 <div className="image" onClick={toggleModalOne}>
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -186,7 +186,7 @@ const NewsRtl = () => {
 
             <li
               data-aos="fade-right"
-              data-aos-duration="1200"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               <div className="list_inner">
@@ -335,7 +335,7 @@ const NewsRtl = () => {
 
             <li
               data-aos="fade-right"
-              data-aos-duration="1200"
+              data-aos-duration="500"
               data-aos-delay="300"
             >
               <div className="list_inner">
@@ -479,7 +479,7 @@ const NewsRtl = () => {
 
             <li
               data-aos="fade-right"
-              data-aos-duration="1200"
+              data-aos-duration="500"
               data-aos-delay="400"
             >
               <div className="list_inner">

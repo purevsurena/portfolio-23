@@ -12,13 +12,14 @@ const SocialShare = [
   },
   {
     iconName: "email",
-    link: "bento.me/purevsuren",
+    link: "mailto:a.purevsuren0120@gmail.com?subject=Your%20Subject%20Here&body=Your%20message%20here",
   },
   {
-    iconName: "leetcode",
-    link: "https://leetcode.com/purevsurena/",
+    iconName: "medium",
+    link: "https://medium.com/@purevsurena",
   },
 ];
+
 const Social = () => {
   return (
     <>

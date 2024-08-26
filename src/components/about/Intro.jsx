@@ -4,7 +4,7 @@ const Intro = () => {
   const introContent = {
     image: "assets/img/slider/profile.png",
     name: "Purevsuren Adiyasuren",
-    designation: "Software Engineer",
+    designation: "Software Engineer ",
     text: (
       <>
         <p>
@@ -26,9 +26,9 @@ const Intro = () => {
 
   return (
     <>
-      <div className="top_author_image">
+      {/* <div className="top_author_image">
         <img src={introContent.image} alt="about" />
-      </div>
+      </div> */}
       <div className="about_title">
         <h3>{introContent.name}</h3>
         <span>{introContent.designation}</span>

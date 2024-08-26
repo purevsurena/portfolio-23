@@ -1,17 +1,34 @@
 {
   "experience": [
     {
-      "id": 3,
+      "id": 1,
       "link": "https://www.equipetechnique.com/",
-      "companyName": "Equipe Technique - (France)",
-      "company": "equipe",
-      "title": "Lead Mobile Engineer",
-      "dateFrom": "Feb 2023",
+      "companyName": "Pikd - London, UK",
+      "company": "pikd",
+      "title": "Senior Mobile Engineer",
+      "dateFrom": "2023",
       "dateTo": "Current",
       "info": [
         "Upgraded battery health by 18% through a GPS-enhanced algorithm, drawing on expertise in geolocation optimization.",
-        "Merged object detection and mesh algorithms, achieving 34% smaller size and 21% faster rendering on the Viro Scene",
-        "Optimized the ThreeJS rendering process, reducing app loading time by 17% and augmented user interaction."
+        "Merged object detection and mesh algorithms, achieving a 34% size reduction and 21% faster 3D object rendering."
+      ],
+      "stack": ["React Native", "CI/CD", "Firebase", "Firestore", "Deployment", "Third-party integrations"],
+      "logowidth": 120,
+      "colourPrimary": "linear-gradient(to bottom, #000, #2A2A2A)",
+      "colourSecondary": "linear-gradient(to bottom, #fff, #7C7C7C)"
+    },
+    {
+      "id": 3,
+      "link": "https://www.equipetechnique.com/",
+      "companyName": "Equipe Technique - Paris, France",
+      "company": "equipe",
+      "title": "Lead Mobile Engineer",
+      "dateFrom": "2022",
+      "dateTo": "2023",
+      "info": [
+        "Successfully migrated 100% of the existing JavaScript-based React Native codebase to TypeScript, resulting in a 32% reduction in potential runtime errors.",
+        "Introduced a modular component architecture, leading to a 40% increase in code reusability and facilitating 25% faster development of new features.",
+        "Implemented effective dependency management strategies, ensuring the project stays up-to-date with the latest libraries and frameworks, resulting in a 23% reduction in outdated dependencies."
       ],
       "stack": ["React Native", "CI/CD", "Firebase", "Firestore", "Deployment", "Third-party integrations"],
       "logowidth": 80,
@@ -22,10 +39,10 @@
       "id": 2,
       "link": "https://www.tomyo.mn",
       "company": "tomyo",
-      "companyName": "TomYo - (Mongolia)",
+      "companyName": "TomYo - Ulaanbaatar, Mongolia",
       "title": "Team Lead",
-      "dateFrom": "Jan 2022",
-      "dateTo": "Oct 2022",
+      "dateFrom": "2019",
+      "dateTo": "2022",
       "info": [
         "Led the entire 'TomYo Skills' project from concept to launch, including mobile, web, backend, and business and technical integrations.",
         "Boosted user engagement by 28% by successfully implementing interactive animations inspired by Apple's design.",
@@ -39,11 +56,11 @@
     {
       "id": 2,
       "link": "https://www.stoovo.com",
-      "companyName": "Stoovo - (USA)",
+      "companyName": "Stoovo - Sunnyvale, California, United States",
       "company": "stoovo",
       "title": "Mobile Developer",
       "dateFrom": "Feb 2021",
-      "dateTo": "July",
+      "dateTo": "July 2021",
       "info": [
         "Initialized responsive and adaptive UI guidelines that improved consistency and usability across all devices, while eliminating various device-based UI bugs through thorough testing and analysis",
         "Maintained, and optimized React Native (RN) components, screens, and features for the mobile app, leveraging Test-Driven Development (TDD) practices to ensure high-quality code and optimal user experience"
@@ -57,7 +74,7 @@
       "id": 4,
       "link": "https://www.tomyo.mn",
       "company": "tomyo",
-      "companyName": "TomYo - (Mongolia)",
+      "companyName": "TomYo - Ulaanbaatar, Mongolia",
       "title": "Full-Stack Software Engineer",
       "dateFrom": "Nov 2019",
       "dateTo": "Jan 2022",

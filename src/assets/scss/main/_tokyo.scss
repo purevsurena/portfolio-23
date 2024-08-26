@@ -39,8 +39,8 @@ body {
 }
 svg {
   fill: currentcolor;
-  width: 15px;
-  height: 15px;
+  width: 24px;
+  height: 24px;
 }
 img.svg {
   width: 15px;
@@ -476,11 +476,42 @@ h6 {
   margin-left: 80px;
 }
 .tokyo_tm_home .details .name {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+
+.tokyo_tm_home .details .name .wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation-fill-mode: forwards;
+}
+
+.tokyo_tm_home .details .greeting {
+  margin-right: 12px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: gray
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
 .tokyo_tm_home .details .job {
   font-family: "Montserrat";
   font-weight: 500;
@@ -525,7 +556,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding: 50px 0px 10px 0px;
+  padding: 90px 0px 0px 0px;
 }
 .tokyo_tm_about .about_image {
   width: 100%;
@@ -654,19 +685,50 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 33px;
+  // padding-top: 33px;
 }
 .progress_inner {
-  width: 100%;
-  margin-bottom: 17px;
+  width: 24.1%;
+  height: 60px;
+  // padding: 0px 12px 8px 12px;
+  padding-top: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1C1C;
+  border: 1px solid #262626;
+  border-radius: 8px;
 }
+@media (max-width: 768px) {
+  /* For tablets and small pads */
+  .progress_inner {
+    width: 49%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile devices */
+  .progress_inner {
+    width: 100%;
+  }
+}
+
+.progress_inner .logo {
+  float: left;
+  margin-right: 12px;
+  // margin-left: 8px;
+  margin-top: 4px;
+}
+
 .progress_inner:last-child {
   margin-bottom: 0px;
 }
 .progress_inner > span {
   margin: 0px 0px 5px 0px;
   width: 100%;
-  display: block;
+  display: inline-block;
   text-align: left;
   color: #000;
   font-style: italic;
@@ -921,14 +983,14 @@ h6 {
   position: relative;
 }
 .tokyo_tm_portfolio .portfolio_list {
-  margin: 0px 0px 0px -50px;
+  // margin: 0px 0px 0px -50px;
   list-style-type: none;
 }
 .tokyo_tm_portfolio .portfolio_list li {
   margin: 0px 0px 20px 0px;
   float: left;
   width: 50%;
-  padding-left: 50px;
+  // padding-left: 50px;
   @media (max-width: 576px) {
     margin: 0px 0px 30px 0px;
   }
@@ -1971,7 +2033,7 @@ body.modal {
     padding-bottom: 70px;
   }
   .tokyo_tm_about {
-    padding-bottom: 95px;
+    padding-bottom: 0px;
   }
   .tokyo_tm_home {
     padding-bottom: 90px;
@@ -2297,4 +2359,14 @@ body.modal {
     width: 20px;
     height: 20px;
   }
+}
+
+.vertical-timeline-element-subtitle {
+  color: #bbb;
+  // color: #238AFC;
+  
+}
+
+.vertical-timeline-element-subtitle:hover {
+  color: #238AFC;
 }

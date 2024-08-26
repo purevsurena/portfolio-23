@@ -9,33 +9,8 @@ const NotFound = () => {
       {/* End page title for seo */}
 
       <div className="not-found-wrapper">
-        <div className="leftpart">
-          <div className="leftpart_inner">
-            <div className="logo">
-              <Link className="navbar-brand" to="/">
-                <img src="/assets/img/logo/dark.png" alt="brand" />
-              </Link>
-            </div>
-            {/* END LOGO */}
-            <div className="copyright">
-              <p>
-                &copy; 2021 Tokyo <br /> Created by
-                <a
-                  href="https://themeforest.net/user/ib-themes"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Ib-Themes
-                </a>
-              </p>
-            </div>
-            {/* END COPYRIGHT */}
-          </div>
-        </div>
         {/* END LEFT PART */}
-
-        <div className="rightpart">
-          <div className="rightpart_in">
+        <div className="rightpart_in">
             <div className="tokyo_tm_section">
               <div className="container">
                 <div className="tokyo_tm_error">
@@ -51,24 +26,6 @@ const NotFound = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* END RIGHT PART */}
-
-        <footer className="footer-wrapper">
-          <div className="copyright">
-            <p>
-              &copy; 2021 Tokyo Created by
-              <a
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ib-Themes
-              </a>
-            </p>
-          </div>
-          {/* END COPYRIGHT */}
-        </footer>
       </div>
     </>
   );

@@ -48,7 +48,7 @@ const PortfolioRtl = () => {
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    <li data-aos="fade-right" data-aos-duration="500">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -66,7 +66,7 @@ const PortfolioRtl = () => {
                     {/* END VIMEO */}
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="100"
                     >
                       <div className="inner">
@@ -87,7 +87,7 @@ const PortfolioRtl = () => {
 
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="200"
                     >
                       <div className="inner">
@@ -120,7 +120,7 @@ const PortfolioRtl = () => {
                     {/* END SHOT */}
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="300"
                     >
                       <div className="inner">
@@ -154,7 +154,7 @@ const PortfolioRtl = () => {
 
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="100"
                     >
                       <div className="inner">
@@ -174,7 +174,7 @@ const PortfolioRtl = () => {
                     {/* END DETAILS */}
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="200"
                     >
                       <div className="inner">
@@ -199,7 +199,7 @@ const PortfolioRtl = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    <li data-aos="fade-right" data-aos-duration="500">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -222,7 +222,7 @@ const PortfolioRtl = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    <li data-aos="fade-right" data-aos-duration="500">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -245,7 +245,7 @@ const PortfolioRtl = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    <li data-aos="fade-right" data-aos-duration="500">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <Item
@@ -276,7 +276,7 @@ const PortfolioRtl = () => {
                     {/* END SHOT */}
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="100"
                     >
                       <div className="inner">
@@ -314,7 +314,7 @@ const PortfolioRtl = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                    <li data-aos="fade-right" data-aos-duration="500">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <img
@@ -332,7 +332,7 @@ const PortfolioRtl = () => {
                     {/* END DETAILS */}
                     <li
                       data-aos="fade-right"
-                      data-aos-duration="1200"
+                      data-aos-duration="500"
                       data-aos-delay="100"
                     >
                       <div className="inner">

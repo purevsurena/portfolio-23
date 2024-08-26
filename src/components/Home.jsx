@@ -9,17 +9,19 @@ const Home = () => {
           <div className="avatar">
             <div
               className="image avatar_img"
-              style={{
-                backgroundImage: "url(assets/img/slider/profile.png)",
-              }}
-            ></div>
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            />
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Purevsuren</h3>
+            <div style={{ display: 'flex'}}>
+              <h4 className="greeting">{`Hi, I'm `}</h4>
+              <h4 className="name">Puujee <span className="wave-emoji" role="img" aria-label="waving hand">👋</span></h4>
+            </div>
             <p className="job">
-            With over 5 years of hands-on experience, I have played a vital role in all stages of the software development lifecycle, specializing in Mobile Development.
+            React Native Engineer with 6+ years of experience, specializing in UX/UI design, animations, code quality, and testing throughout the software development lifecycle.
             </p>
             {/* END JOB */}
             <Social />

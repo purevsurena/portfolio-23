@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
-import Portfolio from "../../components/PortfolioCreative";
 import News from "../../components/News";
-import ServiceMain from "../../components/service/ServiceMain";
 import Contact from "../../components/Contact";
-import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
 import Experience from "../../components/service/Experience";
-import Portfolio2 from "../../components/Portfolio2";
 import Portfolio3 from "../../components/Portfolio3";
 
 const HomeLight = () => {
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [selectedTab]);
+
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
@@ -22,37 +22,17 @@ const HomeLight = () => {
     localStorage.setItem("isDarkModeEnabled", isDarkMode);
   }, [isDarkMode]);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
     <>
       <PageTitle title="Purevsuren (Puujee)" />
       {/* End page title for seo */}
+      
 
-      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
-        {isDarkMode ? (
-          <>
-            <FaSun />
-          </>
-        ) : (
-          <>
-            <FaMoon />
-          </>
-        )}
-      </button> */}
-
-      <Tabs>
+      <Tabs selectedIndex={selectedTab} onSelect={setSelectedTab}>
         <TabList>
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
-              {/* <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
-              </div> */}
               {/* END LOGO */}
 
               <div className="menu">
@@ -89,22 +69,22 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Projects</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">Blog</span>
-                  </Tab>
-                  <Tab>
+                  </Tab> */}
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
                     <span className="menu_content"> Contact</span>
-                  </Tab>
+                  </Tab> */}
                 </ul>
               </div>
               {/* END MENU */}
@@ -122,7 +102,7 @@ const HomeLight = () => {
           <div className="rightpart_in">
             <div className="tokyo_tm_section">
               <TabPanel>
-                <div data-aos="fade-right" data-aos-duration="1200">
+                <div data-aos="fade-right" data-aos-duration="500">
                   <Home />
                 </div>
               </TabPanel>
@@ -131,7 +111,7 @@ const HomeLight = () => {
               <TabPanel>
                 <div
                   data-aos="fade-right"
-                  data-aos-duration="1200"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   <About />
@@ -141,8 +121,8 @@ const HomeLight = () => {
 
               <TabPanel>
                 <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
+                  // data-aos="fade-right"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {/* <ServiceMain /> */}
@@ -166,7 +146,7 @@ const HomeLight = () => {
               <TabPanel>
                 <div
                   data-aos="fade-right"
-                  data-aos-duration="1200"
+                  data-aos-duration="500"
                   data-aos-delay="200"
                 >
                   <Contact />
