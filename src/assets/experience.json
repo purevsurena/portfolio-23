@@ -1,16 +1,36 @@
 {
   "experience": [
     {
-      "id": 1,
-      "link": "https://www.equipetechnique.com/",
-      "companyName": "Pikd - London, UK",
-      "company": "pikd",
-      "title": "Senior Mobile Engineer",
-      "dateFrom": "2023",
+      "id": 5,
+      "link": "https://www.unescap.org/",
+      "companyName": "United Nations ESCAP",
+      "company": "un",
+      "title": "Mobile Engineer",
+      "dateFrom": "Feb 2025",
       "dateTo": "Current",
       "info": [
-        "Upgraded battery health by 18% through a GPS-enhanced algorithm, drawing on expertise in geolocation optimization.",
-        "Merged object detection and mesh algorithms, achieving a 34% size reduction and 21% faster 3D object rendering."
+        "Initiated TensorFlow Lite frame processor integration for real-time odometer and fuel pump image quality validation, preventing low-quality photo submissions and improving transaction accuracy by 32%.",
+        "Developed custom native RFID tag reader module, eliminating legacy barcode/QR code dependencies and implementing encrypted transaction protocols, reducing security vulnerabilities by 27%. ",
+        "Engineered isolated transaction and image upload architecture with background sync, exponential backoff retry logic, and offline-first persistence, reducing data loss by 78% and ensuring reliable delivery in poor network conditions."
+      ],
+      "stack": ["Android", "Native Android", "RFID", "Famoco Devices", "Hardware Integration"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #0066CC, #003366)",
+      "colourSecondary": "linear-gradient(to bottom, #0066CC, #003366)"
+    },
+    {
+      "id": 6,
+      "link": "https://www.pikd.app/",
+      "companyName": "Pikd - London, UK",
+      "company": "pikd",
+      "title": "Lead Mobile Engineer",
+      "dateFrom": "2022",
+      "dateTo": "Feb 2025",
+      "info": [
+        "Implemented comprehensive Maestro E2E testing with CI/CD automation, reducing manual QA time from 12 hours to 45 minutes per release, accelerating deployment frequency by 3x, and catching regressions 80% faster.",
+        "Merged object detection and mesh algorithms, achieving a 34% size reduction and 21% faster 3D object rendering.",
+        "Customized Objective-C geospatial API, enhancing GPS precision by 40%, facilitating 3D object navigation similar to Google Street Live View, improving the navigation experience in a React Native application.",
+        "Conducted app-wide memory optimization, implementing efficient resource management and fixing memory leaks, eliminating OOM crashes and reducing crash rate by 67%."
       ],
       "stack": ["React Native", "CI/CD", "Firebase", "Firestore", "Deployment", "Third-party integrations"],
       "logowidth": 120,
@@ -18,11 +38,11 @@
       "colourSecondary": "linear-gradient(to bottom, #fff, #7C7C7C)"
     },
     {
-      "id": 3,
+      "id": 1,
       "link": "https://www.equipetechnique.com/",
-      "companyName": "Equipe Technique - Paris, France",
-      "company": "equipe",
-      "title": "Lead Mobile Engineer",
+      "companyName": "Pikd - London, UK",
+      "company": "pikd",
+      "title": "Senior Mobile Engineer",
       "dateFrom": "2022",
       "dateTo": "2023",
       "info": [
@@ -31,7 +51,7 @@
         "Implemented effective dependency management strategies, ensuring the project stays up-to-date with the latest libraries and frameworks, resulting in a 23% reduction in outdated dependencies."
       ],
       "stack": ["React Native", "CI/CD", "Firebase", "Firestore", "Deployment", "Third-party integrations"],
-      "logowidth": 80,
+      "logowidth": 120,
       "colourPrimary": "linear-gradient(to bottom, #000, #2A2A2A)",
       "colourSecondary": "linear-gradient(to bottom, #fff, #7C7C7C)"
     },

@@ -22,6 +22,16 @@ import {
   GraphqlPlain,
   NextjsOriginal,
 } from 'devicons-react';
+import { 
+  FaCode, 
+  FaRobot, 
+  FaMagic, 
+  FaRocket, 
+  FaFlask, 
+  FaSync, 
+  FaArrowRight,
+  FaMobileAlt 
+} from 'react-icons/fa';
 
 const getSkillIcon = (skillName) => {
   switch (skillName) {
@@ -69,6 +79,22 @@ const getSkillIcon = (skillName) => {
       return <PostgresqlOriginal size={20} />;
     case "GraphQL":
       return <GraphqlPlain size={20} />;
+    case "Cursor":
+      return <FaCode size={20}  />;
+    case "Claude Code":
+      return <FaRobot size={20}  />;
+    case "Vibe Code":
+      return <FaMagic size={20}  />;
+    case "Fastlane":
+      return <FaRocket size={20}  />;
+    case "Maestro":
+      return <FaFlask size={20}  />;
+    case "CI":
+      return <FaSync size={20}  />;
+    case "CD":
+      return <FaArrowRight size={20}  />;
+    case "App Center":
+      return <FaMobileAlt size={20}  />;
     default:
       return <ReactOriginal size={20} />; // Default to React icon if none match
   }
@@ -98,7 +124,6 @@ const Skills = () => {
         { id: 11, skillName: "NodeJS", skillValue: "90" },
         { id: 12, skillName: "Redux", skillValue: "85" },
         { id: 13, skillName: "Jest", skillValue: "80" },
-        { id: 14, skillName: "GraphQL", skillValue: "80" },
 
       ],
     },
@@ -111,7 +136,11 @@ const Skills = () => {
         { id: 18, skillName: "GCP", skillValue: "80" },
         { id: 15, skillName: "Git", skillValue: "90" },
         { id: 16, skillName: "PostgreSQL", skillValue: "85" },
-        { id: 20, skillName: "Ansible", skillValue: "70" },
+        { id: 20, skillName: "Cursor", skillValue: "90" },
+        { id: 21, skillName: "Claude Code", skillValue: "85" },
+        { id: 22, skillName: "Vibe Code", skillValue: "85" },
+        { id: 23, skillName: "Fastlane", skillValue: "80" },
+        { id: 24, skillName: "Maestro", skillValue: "80" },
       ],
     },
   ];
@@ -126,7 +155,7 @@ const Skills = () => {
 
           <div className="tokyo_progress">
             {item?.progress?.map((skill) => (
-              <div className="progress_inner" data-value={item.skillValue} key={skill.id}>
+              <div className="progress_inner" data-value={skill.skillValue} key={skill.id}>
                 <span>
                   <span className="label">{skill?.skillName}</span>
                   <div className="logo">{getSkillIcon(skill?.skillName)}</div>

@@ -10,7 +10,7 @@ const Intro = () => {
         <p>
         Experienced software engineer with a solution-oriented mindset,
         an unyielding enthusiasm for learning, and a deep passion for tackling
-        complex engineering challenges. With over 5 years of hands-on experience,
+        complex engineering challenges. With over 6+ years of hands-on experience,
         I have played a vital role in all stages of the software development lifecycle,
         specializing in React-Native and Mobile Development.
         </p>
