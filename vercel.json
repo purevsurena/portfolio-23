@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd tokyo && npm install && npm run build",
-  "outputDirectory": "tokyo/build",
-  "installCommand": "cd tokyo && npm install",
+  "buildCommand": "npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": "create-react-app",
   "nodeVersion": "24.x"
 }
