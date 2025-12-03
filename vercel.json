@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd tokyo && npm install && npm run build",
+  "outputDirectory": "tokyo/build",
+  "installCommand": "cd tokyo && npm install",
+  "framework": "create-react-app",
+  "nodeVersion": "24.x"
+}
+
